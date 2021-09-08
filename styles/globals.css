@@ -22,3 +22,14 @@ a {
 * {
     box-sizing: border-box;
 }
+
+.timeline:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 4px;
+    left: 6px;
+    /* background: linear-gradient(45deg, #ee6161, #fed402, #05e39c, #01d0fb); */
+    background: linear-gradient(45deg, #404b69, #04828a);
+}

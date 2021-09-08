@@ -23,7 +23,7 @@ function Navbar() {
                             </Link>
                         </li>
                         <li>
-                            <Link href="/">
+                            <Link href="/projects">
                                 <a className="hover:opacity-80  transition duration-300">
                                     Projects
                                 </a>
