@@ -11,11 +11,12 @@ const Projects: NextPage = () => {
             <div className="w-10/12 lg:w-6/12 my-20 space-y-8 font-comfortaa">
                 <div className="space-y-3">
                     <h2 className="font-bold text-4xl text-primary">
-                        work ( '{' '}
-                        <span className=" text-tertiary">selected</span> ' )
+                        work ( &rsquo;{' '}
+                        <span className=" text-tertiary">selected</span> &rsquo;
+                        )
                     </h2>
                     <p className="text-secondary">
-                        // Some special projects explained in details.
+                        &#47;&#47; Some special projects explained in details.
                     </p>
                 </div>
                 <div className="timeline relative space-y-10">
@@ -32,6 +33,7 @@ const Projects: NextPage = () => {
                         </div>
                         <div className="ml-14 text-primary space-y-2">
                             <a
+                                rel="noreferrer"
                                 href="https://perform-tasks.vercel.app/"
                                 className="text-2xl"
                                 target="_blank"

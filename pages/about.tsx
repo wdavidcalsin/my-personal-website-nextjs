@@ -11,12 +11,12 @@ const About: NextPage = () => {
         >
             <div className="w-10/12 lg:w-6/12 flex flex-col items-center h-full my-32 lg:my-0 lg:justify-center">
                 <h2 className="font-pacifico text-3xl md:text-4xl text-primary">
-                    Hi, I'm Willian David Calsin
+                    Hi, I&rsquo;m Willian David Calsin
                 </h2>
 
                 <div className="py-5 lg:py-12 space-y-5">
                     <p className="font-comfortaa text-primary text-xl md:text-2xl">
-                        I'm a{' '}
+                        I&rsquo;m a{' '}
                         <span className="text-tertiary font-bold">
                             Front End Engineer
                         </span>{' '}
@@ -34,17 +34,32 @@ const About: NextPage = () => {
 
                     <p className="font-comfortaa text-primary text-lg md:text-xl">
                         You can find me on{' '}
-                        <Link href="https://github.com/wdavidcalsin">
-                            <a className="text-tertiary">GitHub</a>
-                        </Link>
+                        <a
+                            rel="noreferrer"
+                            target="_blank"
+                            href="https://github.com/wdavidcalsin"
+                            className="text-tertiary"
+                        >
+                            GitHub
+                        </a>
                         ,{' '}
-                        <Link href="https://github.com/wdavidcalsin">
-                            <a className="text-tertiary">Twitter</a>
-                        </Link>{' '}
+                        <a
+                            rel="noreferrer"
+                            target="_blank"
+                            href="https://github.com/wdavidcalsin"
+                            className="text-tertiary"
+                        >
+                            Twitter
+                        </a>{' '}
                         and{' '}
-                        <Link href="https://github.com/wdavidcalsin">
-                            <a className="text-tertiary">LinkedIn</a>
-                        </Link>
+                        <a
+                            rel="noreferrer"
+                            target="_blank"
+                            href="https://github.com/wdavidcalsin"
+                            className="text-tertiary"
+                        >
+                            LinkedIn
+                        </a>
                         .
                     </p>
                 </div>

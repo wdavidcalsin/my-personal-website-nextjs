@@ -6,7 +6,11 @@ import { twitter } from 'react-icons-kit/feather/twitter';
 function SocialNetwork() {
     return (
         <div className="space-x-2 md:space-x-5 text-primary">
-            <a href="https://github.com/wdavidcalsin" target="_blank">
+            <a
+                rel="noreferrer"
+                href="https://github.com/wdavidcalsin"
+                target="_blank"
+            >
                 <Icon
                     size=""
                     icon={github}
@@ -14,6 +18,7 @@ function SocialNetwork() {
                 />
             </a>
             <a
+                rel="noreferrer"
                 href="https://twitter.com/intent/follow?screen_name=wdavidcalsin"
                 target="_blank"
             >
@@ -24,6 +29,7 @@ function SocialNetwork() {
                 />
             </a>
             <a
+                rel="noreferrer"
                 href="https://www.linkedin.com/in/williandavidcalsin/"
                 target="_blank"
             >
