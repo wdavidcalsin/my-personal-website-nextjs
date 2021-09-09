@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { useReducer, useState } from 'react';
+import { useState } from 'react';
 import Icon from 'react-icons-kit';
 import { menu } from 'react-icons-kit/feather/menu';
 import WDavidLogo from '../public/WDavid.png';
