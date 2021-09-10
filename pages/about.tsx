@@ -1,38 +1,42 @@
 import type { NextPage } from 'next';
+import { useState } from 'react';
 import Layout from '../components/layout';
 import SocialNetwork from '../components/socialNetwork';
 
 const About: NextPage = () => {
+    const [estadoMenu, setEstadoMenu] = useState(false);
     return (
         <Layout
             title="Page About"
             description="Es la pagina principal de mi vida"
         >
-            <div className="w-10/12 lg:w-6/12 flex flex-col items-center h-full my-32 lg:my-0 lg:justify-center">
+            <div className="w-10/12 lg:w-6/12 flex flex-col items-center h-full my-24  lg:m-0 lg:justify-center ">
                 <h2 className="font-pacifico text-3xl md:text-4xl text-primary">
-                    Hi, I&rsquo;m Willian David Calsin
+                    {/* Hi, I&rsquo;m Willian David Calsin */}
+                    Hola, Soy Willian David Calsin
                 </h2>
 
                 <div className="py-5 lg:py-12 space-y-5">
                     <p className="font-comfortaa text-primary text-xl md:text-2xl">
-                        I&rsquo;m a{' '}
+                        Soy un{' '}
                         <span className="text-tertiary font-bold">
-                            Front End Engineer
+                            Ingeniero de Front-end
                         </span>{' '}
-                        from Peru. I code, write and build stuff on internet.
+                        de Perú. Programo y construyo cosas en Internet.
                     </p>
 
                     <p className="font-comfortaa text-primary text-lg md:text-xl">
-                        Interested in design, under engineering and open source.
+                        Interesado en el diseño, en la ingeniería y en el código
+                        abierto.
                     </p>
 
                     <p className="font-comfortaa text-primary text-lg md:text-xl">
-                        I am focused on building projects with JavaScript,
-                        specifically React and Typescript.
+                        Estoy enfocado en la construcción de proyectos con
+                        JavaScript, específicamente React y Typescript.
                     </p>
 
                     <p className="font-comfortaa text-primary text-lg md:text-xl">
-                        You can find me on{' '}
+                        Puedes encontrarme en{' '}
                         <a
                             rel="noreferrer"
                             target="_blank"
@@ -50,7 +54,7 @@ const About: NextPage = () => {
                         >
                             Twitter
                         </a>{' '}
-                        and{' '}
+                        y{' '}
                         <a
                             rel="noreferrer"
                             target="_blank"
