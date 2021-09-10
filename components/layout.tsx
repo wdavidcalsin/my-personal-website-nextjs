@@ -18,9 +18,20 @@ export default function Layout({ children, title, description }: PropLayout) {
                 />
                 <link rel="icon" href="/logo-ico.svg" />
             </Head>
-            <main className="h-screen bg-quartet w-full flex flex-col items-center">
+            <main className="h-screen w-full flex flex-col items-center">
                 <Navbar />
                 {children}
+                <footer className="h-10 font-comfortaa text-xs">
+                    Code with <span className="text-tertiary">&#10084;</span> by{' '}
+                    <a
+                        rel="noreferrer"
+                        target="_blank"
+                        href="https://twitter.com/wdavidcalsin"
+                        className="hover:text-sky_blue"
+                    >
+                        @wdavidcalsin
+                    </a>
+                </footer>
             </main>
         </>
     );

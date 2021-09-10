@@ -10,19 +10,19 @@ const Projects: NextPage = () => {
         >
             <div className="w-10/12 lg:w-6/12 my-20 space-y-8 font-comfortaa">
                 <div className="space-y-3">
-                    <h2 className="font-bold text-4xl text-primary">
-                        work ( &rsquo;{' '}
-                        <span className=" text-tertiary">selected</span> &rsquo;
-                        )
+                    <h2 className="font-bold text-3xl md:text-4xl text-primary">
+                        Trabajos (&rsquo;
+                        <span className=" text-tertiary">seleccionados</span>
+                        &rsquo;)
                     </h2>
                     <p className="text-secondary">
-                        &#47;&#47; Some special projects explained in details.
+                        &#47;&#47; Algunos proyectos explicados en detalle.
                     </p>
                 </div>
                 <div className="timeline relative space-y-10">
                     <div>
                         <div className=" bg-gradient-to-r from-secondary to-tertiary w-3 h-3 flex items-center justify-center absolute p-2 rounded-full">
-                            <span className="absolute right-14 whitespace-nowrap hidden lg:block italic text-secondary">
+                            <span className="absolute right-12 whitespace-nowrap hidden lg:block italic text-secondary">
                                 31 aug, 2021
                             </span>
                             {/* <Icon
@@ -35,25 +35,154 @@ const Projects: NextPage = () => {
                             <a
                                 rel="noreferrer"
                                 href="https://perform-tasks.vercel.app/"
-                                className="text-2xl"
+                                className="text-2xl hover:text-sky_blue transition duration-300"
                                 target="_blank"
                             >
                                 To-do List Application
                             </a>
                             <p>
-                                A todo list implemented using React (Typescript)
+                                Una lista de tareas implementada con React
+                                (Typescript)
                             </p>
                         </div>
                     </div>
                     <div>
                         <div className="bg-gradient-to-r from-secondary to-tertiary w-3 h-3 flex items-center justify-center absolute p-2 rounded-full">
-                            <span className="absolute right-14 whitespace-nowrap hidden lg:block italic  text-secondary">
+                            <span className="absolute right-12 whitespace-nowrap hidden lg:block italic  text-secondary">
                                 16 may, 2021
                             </span>
                         </div>
                         <div className="ml-14 text-primary space-y-2">
                             <Link href="/">
-                                <a className="text-2xl">Prueba 1</a>
+                                <a className="text-2xl hover:text-sky_blue transition duration-300">
+                                    Prueba 1
+                                </a>
+                            </Link>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Illum accusamus
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div className="bg-gradient-to-r from-secondary to-tertiary w-3 h-3 flex items-center justify-center absolute p-2 rounded-full">
+                            <span className="absolute right-12 whitespace-nowrap hidden lg:block italic  text-secondary">
+                                16 may, 2021
+                            </span>
+                        </div>
+                        <div className="ml-14 text-primary space-y-2">
+                            <Link href="/">
+                                <a className="text-2xl hover:text-sky_blue transition duration-300">
+                                    Prueba 1
+                                </a>
+                            </Link>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Illum accusamus
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div className="bg-gradient-to-r from-secondary to-tertiary w-3 h-3 flex items-center justify-center absolute p-2 rounded-full">
+                            <span className="absolute right-12 whitespace-nowrap hidden lg:block italic  text-secondary">
+                                16 may, 2021
+                            </span>
+                        </div>
+                        <div className="ml-14 text-primary space-y-2">
+                            <Link href="/">
+                                <a className="text-2xl hover:text-sky_blue transition duration-300">
+                                    Prueba 1
+                                </a>
+                            </Link>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Illum accusamus
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div className="bg-gradient-to-r from-secondary to-tertiary w-3 h-3 flex items-center justify-center absolute p-2 rounded-full">
+                            <span className="absolute right-12 whitespace-nowrap hidden lg:block italic  text-secondary">
+                                16 may, 2021
+                            </span>
+                        </div>
+                        <div className="ml-14 text-primary space-y-2">
+                            <Link href="/">
+                                <a className="text-2xl hover:text-sky_blue transition duration-300">
+                                    Prueba 1
+                                </a>
+                            </Link>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Illum accusamus
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div className="bg-gradient-to-r from-secondary to-tertiary w-3 h-3 flex items-center justify-center absolute p-2 rounded-full">
+                            <span className="absolute right-12 whitespace-nowrap hidden lg:block italic  text-secondary">
+                                16 may, 2021
+                            </span>
+                        </div>
+                        <div className="ml-14 text-primary space-y-2">
+                            <Link href="/">
+                                <a className="text-2xl hover:text-sky_blue transition duration-300">
+                                    Prueba 1
+                                </a>
+                            </Link>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Illum accusamus
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div className="bg-gradient-to-r from-secondary to-tertiary w-3 h-3 flex items-center justify-center absolute p-2 rounded-full">
+                            <span className="absolute right-12 whitespace-nowrap hidden lg:block italic  text-secondary">
+                                16 may, 2021
+                            </span>
+                        </div>
+                        <div className="ml-14 text-primary space-y-2">
+                            <Link href="/">
+                                <a className="text-2xl hover:text-sky_blue transition duration-300">
+                                    Prueba 1
+                                </a>
+                            </Link>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Illum accusamus
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div className="bg-gradient-to-r from-secondary to-tertiary w-3 h-3 flex items-center justify-center absolute p-2 rounded-full">
+                            <span className="absolute right-12 whitespace-nowrap hidden lg:block italic  text-secondary">
+                                16 may, 2021
+                            </span>
+                        </div>
+                        <div className="ml-14 text-primary space-y-2">
+                            <Link href="/">
+                                <a className="text-2xl hover:text-sky_blue transition duration-300">
+                                    Prueba 1
+                                </a>
+                            </Link>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Illum accusamus
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div className="bg-gradient-to-r from-secondary to-tertiary w-3 h-3 flex items-center justify-center absolute p-2 rounded-full">
+                            <span className="absolute right-12 whitespace-nowrap hidden lg:block italic  text-secondary">
+                                16 may, 2021
+                            </span>
+                        </div>
+                        <div className="ml-14 text-primary space-y-2">
+                            <Link href="/">
+                                <a className="text-2xl hover:text-sky_blue transition duration-300">
+                                    Prueba 1
+                                </a>
                             </Link>
                             <p>
                                 Lorem, ipsum dolor sit amet consectetur
