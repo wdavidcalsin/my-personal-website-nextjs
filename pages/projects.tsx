@@ -8,7 +8,7 @@ const Projects: NextPage = () => {
             title="Page About"
             description="Es la pagina principal de mi vida"
         >
-            <div className="w-10/12 lg:w-6/12 my-20 space-y-8 font-comfortaa">
+            <div className="w-10/12 lg:w-6/12 mt-32 mb-40 space-y-8 font-comfortaa">
                 <div className="space-y-3">
                     <h2 className="font-bold text-3xl md:text-4xl text-primary">
                         Trabajos (&rsquo;
@@ -43,132 +43,6 @@ const Projects: NextPage = () => {
                             <p>
                                 Una lista de tareas implementada con React
                                 (Typescript)
-                            </p>
-                        </div>
-                    </div>
-                    <div>
-                        <div className="bg-gradient-to-r from-secondary to-tertiary w-3 h-3 flex items-center justify-center absolute p-2 rounded-full">
-                            <span className="absolute right-12 whitespace-nowrap hidden lg:block italic  text-secondary">
-                                16 may, 2021
-                            </span>
-                        </div>
-                        <div className="ml-14 text-primary space-y-2">
-                            <Link href="/">
-                                <a className="text-2xl hover:text-sky_blue transition duration-300">
-                                    Prueba 1
-                                </a>
-                            </Link>
-                            <p>
-                                Lorem, ipsum dolor sit amet consectetur
-                                adipisicing elit. Illum accusamus
-                            </p>
-                        </div>
-                    </div>
-                    <div>
-                        <div className="bg-gradient-to-r from-secondary to-tertiary w-3 h-3 flex items-center justify-center absolute p-2 rounded-full">
-                            <span className="absolute right-12 whitespace-nowrap hidden lg:block italic  text-secondary">
-                                16 may, 2021
-                            </span>
-                        </div>
-                        <div className="ml-14 text-primary space-y-2">
-                            <Link href="/">
-                                <a className="text-2xl hover:text-sky_blue transition duration-300">
-                                    Prueba 1
-                                </a>
-                            </Link>
-                            <p>
-                                Lorem, ipsum dolor sit amet consectetur
-                                adipisicing elit. Illum accusamus
-                            </p>
-                        </div>
-                    </div>
-                    <div>
-                        <div className="bg-gradient-to-r from-secondary to-tertiary w-3 h-3 flex items-center justify-center absolute p-2 rounded-full">
-                            <span className="absolute right-12 whitespace-nowrap hidden lg:block italic  text-secondary">
-                                16 may, 2021
-                            </span>
-                        </div>
-                        <div className="ml-14 text-primary space-y-2">
-                            <Link href="/">
-                                <a className="text-2xl hover:text-sky_blue transition duration-300">
-                                    Prueba 1
-                                </a>
-                            </Link>
-                            <p>
-                                Lorem, ipsum dolor sit amet consectetur
-                                adipisicing elit. Illum accusamus
-                            </p>
-                        </div>
-                    </div>
-                    <div>
-                        <div className="bg-gradient-to-r from-secondary to-tertiary w-3 h-3 flex items-center justify-center absolute p-2 rounded-full">
-                            <span className="absolute right-12 whitespace-nowrap hidden lg:block italic  text-secondary">
-                                16 may, 2021
-                            </span>
-                        </div>
-                        <div className="ml-14 text-primary space-y-2">
-                            <Link href="/">
-                                <a className="text-2xl hover:text-sky_blue transition duration-300">
-                                    Prueba 1
-                                </a>
-                            </Link>
-                            <p>
-                                Lorem, ipsum dolor sit amet consectetur
-                                adipisicing elit. Illum accusamus
-                            </p>
-                        </div>
-                    </div>
-                    <div>
-                        <div className="bg-gradient-to-r from-secondary to-tertiary w-3 h-3 flex items-center justify-center absolute p-2 rounded-full">
-                            <span className="absolute right-12 whitespace-nowrap hidden lg:block italic  text-secondary">
-                                16 may, 2021
-                            </span>
-                        </div>
-                        <div className="ml-14 text-primary space-y-2">
-                            <Link href="/">
-                                <a className="text-2xl hover:text-sky_blue transition duration-300">
-                                    Prueba 1
-                                </a>
-                            </Link>
-                            <p>
-                                Lorem, ipsum dolor sit amet consectetur
-                                adipisicing elit. Illum accusamus
-                            </p>
-                        </div>
-                    </div>
-                    <div>
-                        <div className="bg-gradient-to-r from-secondary to-tertiary w-3 h-3 flex items-center justify-center absolute p-2 rounded-full">
-                            <span className="absolute right-12 whitespace-nowrap hidden lg:block italic  text-secondary">
-                                16 may, 2021
-                            </span>
-                        </div>
-                        <div className="ml-14 text-primary space-y-2">
-                            <Link href="/">
-                                <a className="text-2xl hover:text-sky_blue transition duration-300">
-                                    Prueba 1
-                                </a>
-                            </Link>
-                            <p>
-                                Lorem, ipsum dolor sit amet consectetur
-                                adipisicing elit. Illum accusamus
-                            </p>
-                        </div>
-                    </div>
-                    <div>
-                        <div className="bg-gradient-to-r from-secondary to-tertiary w-3 h-3 flex items-center justify-center absolute p-2 rounded-full">
-                            <span className="absolute right-12 whitespace-nowrap hidden lg:block italic  text-secondary">
-                                16 may, 2021
-                            </span>
-                        </div>
-                        <div className="ml-14 text-primary space-y-2">
-                            <Link href="/">
-                                <a className="text-2xl hover:text-sky_blue transition duration-300">
-                                    Prueba 1
-                                </a>
-                            </Link>
-                            <p>
-                                Lorem, ipsum dolor sit amet consectetur
-                                adipisicing elit. Illum accusamus
                             </p>
                         </div>
                     </div>
