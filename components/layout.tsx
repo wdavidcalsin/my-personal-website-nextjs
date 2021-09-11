@@ -18,10 +18,10 @@ export default function Layout({ children, title, description }: PropLayout) {
                 />
                 <link rel="icon" href="/logo-ico.svg" />
             </Head>
-            <main className="h-screen w-full flex flex-col items-center">
+            <main className="h-screen w-full flex flex-col items-center justify-between">
                 <Navbar />
                 {children}
-                <footer className="h-10 font-comfortaa text-xs">
+                <footer className="h-1 font-comfortaa text-xs w-full bottom-0 py-10 text-center">
                     Code with <span className="text-tertiary">&#10084;</span> by{' '}
                     <a
                         rel="noreferrer"
