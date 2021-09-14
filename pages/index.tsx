@@ -9,7 +9,7 @@ const Home: NextPage = () => {
                 <h2 className="font-pacifico text-3xl md:text-5xl text-primary">
                     Willian David
                 </h2>
-                <p className="font-comfortaa text-primary py-5 md:py-12 text-base md:text-3xl">
+                <p className="w-full font-comfortaa text-primary py-5 md:py-12 md:leading-normal text-base md:text-3xl">
                     Frontend Developer, apasionado por compartir conocimientos.
                 </p>
                 <SocialNetwork />

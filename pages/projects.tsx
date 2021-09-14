@@ -64,42 +64,6 @@ const Projects: NextPage = () => {
                             </p>
                         </div>
                     </div>
-                    <div>
-                        <div className="bg-gradient-to-r from-secondary to-tertiary w-3 h-3 flex items-center justify-center absolute p-2 rounded-full">
-                            <span className="absolute right-12 whitespace-nowrap hidden lg:block italic  text-secondary">
-                                16 may, 2021
-                            </span>
-                        </div>
-                        <div className="ml-14 text-primary space-y-2">
-                            <Link href="/">
-                                <a className="text-2xl hover:text-sky_blue transition duration-300">
-                                    Prueba 1
-                                </a>
-                            </Link>
-                            <p>
-                                Lorem, ipsum dolor sit amet consectetur
-                                adipisicing elit. Illum accusamus
-                            </p>
-                        </div>
-                    </div>
-                    <div>
-                        <div className="bg-gradient-to-r from-secondary to-tertiary w-3 h-3 flex items-center justify-center absolute p-2 rounded-full">
-                            <span className="absolute right-12 whitespace-nowrap hidden lg:block italic  text-secondary">
-                                16 may, 2021
-                            </span>
-                        </div>
-                        <div className="ml-14 text-primary space-y-2">
-                            <Link href="/">
-                                <a className="text-2xl hover:text-sky_blue transition duration-300">
-                                    Prueba 1
-                                </a>
-                            </Link>
-                            <p>
-                                Lorem, ipsum dolor sit amet consectetur
-                                adipisicing elit. Illum accusamus
-                            </p>
-                        </div>
-                    </div>
                 </div>
             </div>
         </Layout>
