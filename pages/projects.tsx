@@ -23,11 +23,6 @@ const Projects: NextPage = () => {
                             <span className="absolute right-12 whitespace-nowrap hidden lg:block italic text-secondary">
                                 31 aug, 2021
                             </span>
-                            {/* <Icon
-                            size=""
-                            icon={clock}
-                            className="w-full h-full text-quartet"
-                        /> */}
                         </div>
                         <div className="ml-14 text-primary space-y-3">
                             <a
