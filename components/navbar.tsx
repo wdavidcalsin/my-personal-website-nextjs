@@ -35,12 +35,12 @@ function Navbar() {
         <>
             <nav className="w-10/12 lg:w-6/12 flex justify-between items-center pt-5 md:pt-14">
                 <Link href="/">
-                    <a className="w-24 md:w-40 ">
-                        <MainLogoIcon className="block w-3" />
+                    <a className="w-32 md:w-36 ">
+                        <MainLogoIcon className="w-full" />
                     </a>
                 </Link>
                 <div className="hidden lg:block">
-                    <ul className="text-secondary flex font-poppins text-xl space-x-6">
+                    <ul className="text-secondary flex text-xl space-x-6">
                         <li>
                             <NavigationLink href="/" texLink="Inicio" />
                         </li>
@@ -86,10 +86,10 @@ function Navbar() {
                     }`}
                 >
                     <div className="mt-8 space-y-10">
-                        <h2 className="text-quartet font-comfortaa text-3xl text-center font-bold">
+                        <h2 className="text-quartet text-3xl text-center font-bold">
                             Menu
                         </h2>
-                        <ul className=" text-quartet flex flex-col items-center font-comfortaa text-2xl space-y-10">
+                        <ul className=" text-quartet flex flex-col items-center text-2xl space-y-10">
                             <li>
                                 <Link href="/">
                                     <a className="hover:opacity-80 transition duration-300">

@@ -14,7 +14,7 @@ function SocialNetwork() {
                 <Icon
                     size=""
                     icon={github}
-                    className="w-6 md:w-10 lg:w-4 hover:text-black transition duration-300"
+                    className="w-4 md:w-4 lg:w-4 hover:text-black transition duration-300"
                 />
             </a>
             <a
@@ -25,7 +25,7 @@ function SocialNetwork() {
                 <Icon
                     size=""
                     icon={twitter}
-                    className="w-6 md:w-10 lg:w-4 hover:text-sky_blue transition duration-300"
+                    className="w-4 md:w-4 lg:w-4 hover:text-sky_blue transition duration-300"
                 />
             </a>
             <a
@@ -36,7 +36,7 @@ function SocialNetwork() {
                 <Icon
                     size=""
                     icon={linkedin}
-                    className="w-6 md:w-10 lg:w-4 hover:text-blue transition duration-300"
+                    className="w-4 md:w-4 lg:w-4 hover:text-blue transition duration-300"
                 />
             </a>
         </div>

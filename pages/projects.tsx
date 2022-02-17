@@ -8,7 +8,7 @@ const Projects: NextPage = () => {
             title="Page About"
             description="Es la pagina principal de mi vida"
         >
-            <div className="w-10/12 lg:w-6/12 flex flex-col space-y-8 my-24 font-poppins">
+            <div className="w-10/12 lg:w-6/12 flex flex-col space-y-8 my-24">
                 <div className="space-y-4 py-5">
                     <h2 className="font-bold text-3xl md:text-4xl text-primary">
                         Proyectos

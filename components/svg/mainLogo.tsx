@@ -8,8 +8,6 @@ export const MainLogoIcon = (props: SvgIconProps) => {
     const { className } = props;
     return (
         <svg
-            width="134"
-            height="30"
             viewBox="0 0 134 30"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"

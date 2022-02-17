@@ -22,7 +22,7 @@ export default function Layout({ children, title, description }: PropLayout) {
             <main className="h-screen w-full flex flex-col items-center justify-between">
                 <Navbar />
                 {children}
-                <footer className="h-1 flex justify-center items-center flex-col font-comfortaa text-xs w-full bottom-0 py-10 text-center">
+                <footer className="h-1 flex justify-center items-center flex-col text-xs w-full bottom-0 py-12 text-center">
                     <SocialNetwork />
                     <div>
                         Code with{' '}
