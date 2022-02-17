@@ -6,7 +6,7 @@ const About: NextPage = () => {
     const [estadoMenu, setEstadoMenu] = useState(false);
     return (
         <Layout
-            title="Page About"
+            title="Sobre mi - Willian David"
             description="Es la pagina principal de mi vida"
         >
             <div className="w-10/12 lg:w-6/12 flex flex-col h-full my-24  lg:m-0 lg:justify-center ">

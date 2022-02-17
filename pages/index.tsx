@@ -4,7 +4,7 @@ import Layout from '../components/layout';
 
 const Home: NextPage = () => {
     return (
-        <Layout title="Page Home" description="Es la pagina principal">
+        <Layout title="Inicio" description="Es la pagina principal">
             <div className="w-10/12 lg:w-6/12 flex flex-col h-full justify-center">
                 <h2 className=" text-4xl md:text-5xl text-primary font-bold">
                     Willian David

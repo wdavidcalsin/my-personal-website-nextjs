@@ -45,12 +45,12 @@ function Navbar() {
                             <NavigationLink href="/" texLink="Inicio" />
                         </li>
                         <li>
-                            <NavigationLink href="/about" texLink="About" />
+                            <NavigationLink href="/about" texLink="Sobre mi" />
                         </li>
                         <li>
                             <NavigationLink
                                 href="/projects"
-                                texLink="Projects"
+                                texLink="Proyectos"
                             />
                         </li>
                     </ul>
