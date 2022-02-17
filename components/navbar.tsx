@@ -1,9 +1,32 @@
-import Image from 'next/image';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import { useState } from 'react';
-import Icon from 'react-icons-kit';
-import { menu } from 'react-icons-kit/feather/menu';
-import WDavidLogo from '../public/WDavid.png';
+import { MainLogoIcon } from './svg/mainLogo';
+import clsx from 'clsx';
+
+interface NavigationLinkProp {
+    href: string;
+    texLink: string;
+}
+
+const NavigationLink = (props: NavigationLinkProp) => {
+    const { href, texLink } = props;
+    const router = useRouter();
+    const isActive = router.pathname === href;
+
+    return (
+        <Link href={href}>
+            <a
+                className={clsx(
+                    'hover:text-primary',
+                    isActive && 'pointer-events-none text-primary underline'
+                )}
+            >
+                {texLink}
+            </a>
+        </Link>
+    );
+};
 
 function Navbar() {
     const [menuState, setMenuState] = useState(false);
@@ -13,24 +36,22 @@ function Navbar() {
             <nav className="w-10/12 lg:w-6/12 flex justify-between items-center pt-5 md:pt-14">
                 <Link href="/">
                     <a className="w-24 md:w-40 ">
-                        <Image src={WDavidLogo} />
+                        <MainLogoIcon className="block w-3" />
                     </a>
                 </Link>
                 <div className="hidden lg:block">
-                    <ul className=" text-tertiary flex font-comfortaa text-2xl space-x-6">
+                    <ul className="text-secondary flex font-poppins text-xl space-x-6">
                         <li>
-                            <Link href="/about">
-                                <a className="hover:opacity-80 transition duration-300">
-                                    About
-                                </a>
-                            </Link>
+                            <NavigationLink href="/" texLink="Inicio" />
                         </li>
                         <li>
-                            <Link href="/projects">
-                                <a className="hover:opacity-80  transition duration-300">
-                                    Projects
-                                </a>
-                            </Link>
+                            <NavigationLink href="/about" texLink="About" />
+                        </li>
+                        <li>
+                            <NavigationLink
+                                href="/projects"
+                                texLink="Projects"
+                            />
                         </li>
                     </ul>
                 </div>
@@ -38,27 +59,22 @@ function Navbar() {
                     className="lg:hidden"
                     onClick={() => setMenuState(!menuState)}
                 >
-                    {/* <Icon
-                        icon={menu}
-                        size=""
-                        className="w-8 md:w-12 text-primary "
-                    /> */}
                     <div
                         onClick={() => setMenuState(!menuState)}
                         className="w-8 space-y-1.5"
                     >
                         <span
-                            className={`w-full h-1 block bg-tertiary rounded-lg ${
+                            className={`w-full h-1 block bg-primary rounded-lg ${
                                 menuState && 'transform'
                             } rotate-45 translate-y-2 transition`}
                         ></span>
                         <span
-                            className={`w-full h-1 block bg-tertiary rounded-lg ${
+                            className={`w-full h-1 block bg-primary rounded-lg ${
                                 menuState && 'opacity-0'
                             } transition`}
                         ></span>
                         <span
-                            className={`w-full h-1 block bg-tertiary rounded-lg ${
+                            className={`w-full h-1 block bg-primary rounded-lg ${
                                 menuState && 'transform'
                             } -rotate-45 -translate-y-3 transition`}
                         ></span>

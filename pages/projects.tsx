@@ -8,20 +8,18 @@ const Projects: NextPage = () => {
             title="Page About"
             description="Es la pagina principal de mi vida"
         >
-            <div className="w-10/12 lg:w-6/12 flex flex-col space-y-8 my-24 font-comfortaa">
-                <div className="space-y-3">
+            <div className="w-10/12 lg:w-6/12 flex flex-col space-y-8 my-24 font-poppins">
+                <div className="space-y-4 py-5">
                     <h2 className="font-bold text-3xl md:text-4xl text-primary">
-                        Trabajos (&rsquo;
-                        <span className=" text-tertiary">seleccionados</span>
-                        &rsquo;)
+                        Proyectos
                     </h2>
-                    <p className="text-secondary">
-                        &#47;&#47; Algunos proyectos explicados en detalle.
+                    <p className="text-secondary text-xl">
+                        Aqui una seleccion de mis proyectos favoritos.
                     </p>
                 </div>
-                <div className="timeline relative space-y-10">
+                <div className="timeline relative space-y-12">
                     <div>
-                        <div className=" bg-gradient-to-r from-secondary to-tertiary w-3 h-3 flex items-center justify-center absolute p-2 rounded-full">
+                        <div className=" bg-gradient-to-r from-blue to-sky_blue w-3 h-3 flex items-center justify-center absolute p-2 rounded-full">
                             <span className="absolute right-12 whitespace-nowrap hidden lg:block italic text-secondary">
                                 31 aug, 2021
                             </span>
@@ -31,11 +29,11 @@ const Projects: NextPage = () => {
                             className="w-full h-full text-quartet"
                         /> */}
                         </div>
-                        <div className="ml-14 text-primary space-y-2">
+                        <div className="ml-14 text-primary space-y-3">
                             <a
                                 rel="noreferrer"
                                 href="https://perform-tasks.vercel.app/"
-                                className="text-2xl hover:text-sky_blue transition duration-300"
+                                className="text-xl hover:text-sky_blue transition duration-300 font-bold underline"
                                 target="_blank"
                             >
                                 To-do List Application
@@ -47,14 +45,14 @@ const Projects: NextPage = () => {
                         </div>
                     </div>
                     <div>
-                        <div className="bg-gradient-to-r from-secondary to-tertiary w-3 h-3 flex items-center justify-center absolute p-2 rounded-full">
+                        <div className="bg-gradient-to-r from-blue to-sky_blue w-3 h-3 flex items-center justify-center absolute p-2 rounded-full">
                             <span className="absolute right-12 whitespace-nowrap hidden lg:block italic  text-secondary">
                                 16 may, 2021
                             </span>
                         </div>
-                        <div className="ml-14 text-primary space-y-2">
+                        <div className="ml-14 text-primary space-y-3">
                             <Link href="/">
-                                <a className="text-2xl hover:text-sky_blue transition duration-300">
+                                <a className="text-xl hover:text-sky_blue transition duration-300 font-bold underline">
                                     Prueba 1
                                 </a>
                             </Link>

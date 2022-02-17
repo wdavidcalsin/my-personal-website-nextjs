@@ -5,7 +5,7 @@ import { twitter } from 'react-icons-kit/feather/twitter';
 
 function SocialNetwork() {
     return (
-        <div className="space-x-2 md:space-x-5 text-primary">
+        <div className="space-x-2 md:space-x-3 text-primary py-3">
             <a
                 rel="noreferrer"
                 href="https://github.com/wdavidcalsin"
@@ -14,7 +14,7 @@ function SocialNetwork() {
                 <Icon
                     size=""
                     icon={github}
-                    className="w-6 md:w-10 lg:w-8 hover:text-black transition duration-300"
+                    className="w-6 md:w-10 lg:w-4 hover:text-black transition duration-300"
                 />
             </a>
             <a
@@ -25,7 +25,7 @@ function SocialNetwork() {
                 <Icon
                     size=""
                     icon={twitter}
-                    className="w-6 md:w-10 lg:w-8 hover:text-sky_blue transition duration-300"
+                    className="w-6 md:w-10 lg:w-4 hover:text-sky_blue transition duration-300"
                 />
             </a>
             <a
@@ -36,7 +36,7 @@ function SocialNetwork() {
                 <Icon
                     size=""
                     icon={linkedin}
-                    className="w-6 md:w-10 lg:w-8 hover:text-blue transition duration-300"
+                    className="w-6 md:w-10 lg:w-4 hover:text-blue transition duration-300"
                 />
             </a>
         </div>
