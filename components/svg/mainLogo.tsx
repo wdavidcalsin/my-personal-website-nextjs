@@ -1,10 +1,10 @@
 import * as React from 'react';
 
-interface SvgIconProps {
+interface MainLogoProps {
     className: string;
 }
 
-export const MainLogoIcon = (props: SvgIconProps) => {
+export const MainLogoIcon = (props: MainLogoProps) => {
     const { className } = props;
     return (
         <svg

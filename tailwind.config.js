@@ -29,8 +29,6 @@ module.exports = {
             buttonColorText: '#FFFFFF',
         },
         fontFamily: {
-            pacifico: ['Pacifico', 'cursive'],
-            comfortaa: ['Comfortaa', 'cursive'],
             poppins: ['Poppins', 'sans-serif'],
         },
     },

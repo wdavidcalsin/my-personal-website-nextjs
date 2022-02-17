@@ -1,9 +1,11 @@
 import type { NextPage } from 'next';
 import { useState } from 'react';
+
 import Layout from '../components/layout';
 
 const About: NextPage = () => {
     const [estadoMenu, setEstadoMenu] = useState(false);
+
     return (
         <Layout
             title="Sobre mi - Willian David"

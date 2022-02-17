@@ -1,8 +1,9 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useState } from 'react';
-import { MainLogoIcon } from './svg/mainLogo';
 import clsx from 'clsx';
+
+import { MainLogoIcon } from './svg/mainLogo';
 
 interface NavigationLinkProp {
     href: string;
@@ -11,6 +12,7 @@ interface NavigationLinkProp {
 
 const NavigationLink = (props: NavigationLinkProp) => {
     const { href, texLink } = props;
+
     const router = useRouter();
     const isActive = router.pathname === href;
 
