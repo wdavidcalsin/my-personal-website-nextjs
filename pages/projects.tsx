@@ -5,7 +5,7 @@ import Layout from '../components/layout';
 const Projects: NextPage = () => {
     return (
         <Layout
-            title="Proyectos"
+            title="Proyectos - Willian David"
             description="Es la pagina principal de mi vida"
         >
             <div className="w-10/12 lg:w-6/12 flex flex-col space-y-8 my-24">
