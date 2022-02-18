@@ -3,16 +3,15 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 html,
 body {
     padding: 0;
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #dbedf3;
+    /* background-color: #e5f6ff; */
 }
 
 a {
@@ -31,6 +30,5 @@ a {
     height: 100%;
     width: 4px;
     left: 6px;
-    /* background: linear-gradient(45deg, #ee6161, #fed402, #05e39c, #01d0fb); */
-    background: linear-gradient(45deg, #404b69, #04828a);
+    background: linear-gradient(45deg, #0a66c2, #1d9bf0);
 }

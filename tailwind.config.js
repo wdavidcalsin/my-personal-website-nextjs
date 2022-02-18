@@ -24,10 +24,12 @@ module.exports = {
             black: '#000000',
             sky_blue: '#1D9BF0',
             blue: '#0A66C2',
+
+            buttonColor: '#00A3FF',
+            buttonColorText: '#FFFFFF',
         },
         fontFamily: {
-            pacifico: ['Pacifico', 'cursive'],
-            comfortaa: ['Comfortaa', 'cursive'],
+            poppins: ['Poppins', 'sans-serif'],
         },
     },
     variants: {
